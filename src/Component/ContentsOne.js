@@ -167,7 +167,7 @@ const ContentsOne = () => {
           <FirstLineInnerBox>GDB 부트캠프 36기</FirstLineInnerBox>
           <InnerContentsBox
             title={"기간"}
-            duration={"2022.04.04 ~ 2023.01.23"}
+            duration={"2022.04.04 ~ 2022.12.13"}
           ></InnerContentsBox>
           <InnerContentsBox
             title={"시간"}

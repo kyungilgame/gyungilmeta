@@ -116,7 +116,7 @@ const MobileBottomCTABar = () => {
           </FirstLine>
           <FirstLine>
             <text style={{ color: "white", marginLeft: "0.5vw" }}>
-              15,962,000원
+              10,826,350원
             </text>
           </FirstLine>
           <FirstLine>

@@ -83,7 +83,7 @@ const ContentsFour = () => {
   return (
     <ContentsFourContainer>
       <TextStyleOne marginTop={"4vw"}>
-        <text style={{ color: "#00ffd6" }}>아래의 지원을 갖췄다면 지원</text>
+        <text style={{ color: "#00ffd6" }}>아래의 자격을 갖췄다면 지원</text>
         <text style={{ color: "white" }}>하세요</text>
       </TextStyleOne>
       <div

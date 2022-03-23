@@ -84,7 +84,7 @@ const MobileContentsFour = () => {
   return (
     <ContentsFourContainer>
       <TextStyleOne marginTop={"7vw"}>
-        <text style={{ color: "#00ffd6" }}>아래의 지원을 갖췄다면 </text>
+        <text style={{ color: "#00ffd6" }}>아래의 자격을 갖췄다면 </text>
       </TextStyleOne>
       <TextStyleOne>
         <text style={{ color: "#00ffd6" }}>지원</text>
