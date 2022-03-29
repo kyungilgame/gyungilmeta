@@ -106,20 +106,20 @@ const MobileContentsOne = () => {
         <ContentsBox>
           <FirstLineInnerBox>GDB 부트캠프 36기</FirstLineInnerBox>
           <InnerContentsBox
-            title={"모집기간"}
-            duration={"2022.04.04 ~ 2022.12.13"}
+            title={"기간"}
+            duration={"2022.04.08 ~ 2022.12.17"}
           ></InnerContentsBox>
           <InnerContentsBox
             title={"시간"}
             duration={"AM 09:00 ~ PM 18:00"}
           ></InnerContentsBox>
           <InnerContentsBox
-            title={"마감일"}
-            duration={"2022.03.30"}
+            title={"모집마감"}
+            duration={"2022.04.06"}
           ></InnerContentsBox>
           <InnerContentsBox
             title={"합격자 발표일"}
-            duration={"2022.04.01"}
+            duration={"2022.04.05"}
           ></InnerContentsBox>
           <LastLineInnerBox
             as={"a"}
