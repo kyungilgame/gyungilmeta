@@ -8,7 +8,7 @@ import LongLine from "../Image/LongLine.png";
 
 const ContentsTwoContainer = styled.div`
   width: 100%;
-  height: 160vw;
+  height: 185vw;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -104,9 +104,9 @@ const GreenBoxWrapperOne = styled.div`
   align-items: center;
   margin-left: 3vw;
   margin-top: 3vw;
-  background-size: 8vw 1.5vw;
+  background-size: 7vw 1.5vw;
   background-image: url(${ShortLine});
-  background-position: right 37% bottom 69%;
+  background-position: right 50% bottom 69%;
   background-repeat: no-repeat;
   box-shadow: 0.1vw 0.1vw 0.1vw 0.1vw lightgray;
 `;
@@ -145,7 +145,7 @@ const GreenBoxWrapperThree = styled.div`
   margin-left: 3vw;
   background-size: 10vw 1.3vw;
   background-image: url(${LongLine});
-  background-position: right 67% bottom 60%;
+  background-position: right 65% bottom 68%;
   background-repeat: no-repeat;
   margin-top: 3vw;
   box-shadow: 0.1vw 0.1vw 0.1vw 0.1vw lightgray;
@@ -154,21 +154,33 @@ const GreenBoxWrapperThree = styled.div`
 const MobileContentsTwo = () => {
   return (
     <ContentsTwoContainer>
-      <LineSizeTwo marginTop={"6vw"}>
-        <text style={{ color: "#353535" }}>
-          미리 앞서간 10%의 사람들이 나머지 90% 기회를 독점합니다.
+      <LineSizeOne marginTop={"6vw"}>
+        <text style={{ color: "#353535" }}>왜, 메타버스인가요?🤔</text>
+      </LineSizeOne>
+      <LineSizeTwo marginTop={"3vw"}>
+        <text>넷마블 메타버스엔터테인먼트, 카카오엔터와 파트너십 구축</text>
+      </LineSizeTwo>
+      <LineSizeTwo>
+        <text>
+          [단독] 넥슨도 '메타버스 스튜디오' 가세…YG·네이버 합작사에 150억 투자
         </text>
       </LineSizeTwo>
       <LineSizeTwo>
-        <text style={{ color: "#353535" }}>
-          2022년 가장 경쟁력 있는 기술 중 단연코 '메타버스'가 있습니다.
-        </text>
+        <text>블리자드 인수한 MS, 종착점은 '메타버스'</text>
       </LineSizeTwo>
-      <LineSizeOne marginTop={"2vw"}>그래서 디지털 교육에 특화된</LineSizeOne>
+      <LineSizeTwo>
+        <text>엔씨소프트, 新 전성기 위한 '메타버스' 세계 구축 박차</text>
+      </LineSizeTwo>
+      <LineSizeOne marginTop={"5vw"}>
+        게임 업계의 전통 강자, 검증된 명가 KGA
+      </LineSizeOne>
       <LineSizeOne>
         <text style={{ color: "#0d7377" }}>
-          경일과 고용노동부가 준비했습니다
+          최고의 게임 기획자로 만들어 드립니다.
         </text>
+      </LineSizeOne>
+      <LineSizeOne>
+        <text style={{ color: "#0d7377" }}>믿고 따라오세요!🚀</text>
       </LineSizeOne>
       <div
         style={{
@@ -190,47 +202,52 @@ const MobileContentsTwo = () => {
       </div>
       <MiddleLineContainer>
         <div
-          style={{ width: "15%", height: "0.5vw", backgroundColor: "#101010" }}
+          style={{ width: "20%", height: "0.5vw", backgroundColor: "#101010" }}
         ></div>
         <LineSizeOne>
-          <text>부트캠프 수강생을 위한 </text>
-          <text style={{ color: "#0d7377" }}>혜택!</text>
+          <text>메타버스의 </text>
+          <text style={{ color: "#0d7377" }}>초월적 범용성!</text>
         </LineSizeOne>
         <div
-          style={{ width: "15%", height: "0.5vw", backgroundColor: "#101010" }}
+          style={{ width: "20%", height: "0.5vw", backgroundColor: "#101010" }}
         ></div>
       </MiddleLineContainer>
       <GreenBoxContainer>
         <GreenBoxWrapperOne>
-          <LineSizeFive marginTop={"5vw"}>수강료 0원</LineSizeFive>
+          <LineSizeFive marginTop={"5vw"}>게임</LineSizeFive>
           <LineSizeSix marginTop={"3vw"}>
-            <text>K-Digital Training으로</text>
-            <text>40주간 무료로 강의를 듣고</text>
+            <text>실감 기술을 통해</text>
           </LineSizeSix>
           <LineSizeSix>
-            <text>메타버스 개발자로 취업하세요</text>
+            <text>몰입감이 극대화되는</text>
+          </LineSizeSix>
+          <LineSizeSix>
+            <text>게임 컨텐츠 제작</text>
           </LineSizeSix>
         </GreenBoxWrapperOne>
         <GreenBoxWrapperTwo>
-          <LineSizeFive marginTop={"5vw"}>기업 프로젝트 진행</LineSizeFive>
+          <LineSizeFive marginTop={"5vw"}>대체/확장/초월 자아</LineSizeFive>
           <LineSizeSix marginTop={"3vw"}>
-            <text>협약 기업을 통해</text>{" "}
-            <text>상용화 프로젝트를 직접 참여하여</text>
+            <text>아바타를 통해 </text>
           </LineSizeSix>
-
           <LineSizeSix>
-            <text>기업 문제를 해결하고</text> <text>실무능력을 기릅니다</text>
+            <text>현실의 경험을 확장하고,</text>
+          </LineSizeSix>
+          <LineSizeSix>
+            <text>시공간의 제약을 넘어</text>
+          </LineSizeSix>
+          <LineSizeSix>
+            <text>협업과 소통</text>
           </LineSizeSix>
         </GreenBoxWrapperTwo>
         <GreenBoxWrapperThree>
-          <LineSizeFive marginTop={"3vw"}>취업할 때까지</LineSizeFive>
-          <LineSizeFive>1:1 취업 컨설팅 진행</LineSizeFive>
+          <LineSizeFive marginTop={"5vw"}>블록체인과 NFT</LineSizeFive>
+
           <LineSizeSix marginTop={"3vw"}>
-            <text>프로필, 기술이력서, 포트폴리오</text>{" "}
-            <text>면접준비까지?</text>
+            <text>디지털 자산의 생산과 유통,</text>
           </LineSizeSix>
           <LineSizeSix>
-            <text>취업할 때까지 지속적인 컨설팅 제공!</text>
+            <text>플랫폼 간 상호 연동의 형태로 진화</text>
           </LineSizeSix>
         </GreenBoxWrapperThree>
       </GreenBoxContainer>

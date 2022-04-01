@@ -79,12 +79,10 @@ const SectionPage = (sectionState) => {
         <LineTextFive marginTop={"2vw"}>메타버스 바로 알기</LineTextFive>
         <LineTextThree>
           <text style={{ color: "#0d7377" }}>
-            '로블록스'를 기반으로 한 메타버스 플랫폼을
+            메타버스 플랫폼을 배우고 이해합니다.
           </text>
         </LineTextThree>
-        <LineTextThree>
-          <text style={{ color: "#0d7377" }}>배우고 이해합니다.</text>
-        </LineTextThree>
+
         <LineTextFour marginTop={"2vw"}>메타버스 개념과 시장전망</LineTextFour>
         <LineTextFour marginTop={"1vw"}>
           메타버스에서 발생할 수 있는 가상경제 모델에 대해 학습
@@ -108,32 +106,86 @@ const SectionPage = (sectionState) => {
           height: "100%",
         }}
       >
-        <LineTextFive marginTop={"2vw"}>메타버스 프로그래밍</LineTextFive>
+        <LineTextFive marginTop={"2vw"}>메타버스 컨텐츠의 이해</LineTextFive>
         <LineTextThree>
-          <text style={{ color: "#0d7377" }}>'메타버스 월드' 제작을 위한</text>
+          <text style={{ color: "#0d7377" }}>
+            메타버스 컨텐츠와 스토리텔링을 기획합니다.
+          </text>
         </LineTextThree>
-        <LineTextThree>
-          <text style={{ color: "#0d7377" }}>프로그래밍을 학습합니다.</text>
-        </LineTextThree>
+
         <LineTextFour marginTop={"2vw"}>
-          메타버스 구현에 활용되는 다양한 플랫폼 환경에 대해 학습
+          컨셉 기획서와 시나리오 작성
         </LineTextFour>
-        <LineTextFour marginTop={"1vw"}>메타버스 플랫폼 설계</LineTextFour>
+        <LineTextFour marginTop={"1vw"}>세계관 캐릭터 설정</LineTextFour>
+        <LineTextFour marginTop={"1vw"}>마케팅 기초 이론과 실무</LineTextFour>
         <LineTextFour marginTop={"1vw"}>
-          메타버스 백엔드 프로그래밍
-        </LineTextFour>
-        <LineTextFour marginTop={"1vw"}>
-          블록체인 및 NFT의 개념과 활용 사례에 대해 학습
+          마케팅 제안과 프레젠테이션
         </LineTextFour>
         <LineTextFour marginTop={"1vw"}>
-          플레이어 아바타 및 이벤트 프로그래밍
-        </LineTextFour>
-        <LineTextFour marginTop={"1vw"}>
-          Unity3D 엔진 심화 그래픽과 서버
+          개발 프로젝트의 관리 요소 분석
         </LineTextFour>
       </div>
     );
   } else if (sectionState === 3) {
+    return (
+      <div
+        style={{
+          width: "100%",
+          height: "100%",
+        }}
+      >
+        <LineTextFive marginTop={"2vw"}>
+          메타버스 시스템과 UI/UX 기획
+        </LineTextFive>
+        <LineTextThree>
+          <text style={{ color: "#0d7377" }}>
+            로블록스 스튜디오의 스크립트 활용과
+          </text>
+        </LineTextThree>
+        <LineTextThree>
+          <text style={{ color: "#0d7377" }}>공간을 구축합니다.</text>
+        </LineTextThree>
+        <LineTextFour marginTop={"2vw"}>디바이스 환경의 이해</LineTextFour>
+        <LineTextFour marginTop={"1vw"}>
+          컨텐츠와 플랫폼의 시스템 설계
+        </LineTextFour>
+        <LineTextFour marginTop={"1vw"}>컨텐츠의 UI/UX 분석</LineTextFour>
+        <LineTextFour marginTop={"1vw"}>
+          컨텐츠와 플랫폼의 UI 요소 설계
+        </LineTextFour>
+      </div>
+    );
+  } else if (sectionState === 4) {
+    return (
+      <div
+        style={{
+          width: "100%",
+          height: "100%",
+        }}
+      >
+        <LineTextFive marginTop={"2vw"}>Unity 3D 엔진과</LineTextFive>
+        <LineTextFive>공간 ·서비스의 기획/운영</LineTextFive>
+        <LineTextThree>
+          <text style={{ color: "#0d7377" }}>
+            Unity 3D 개발 환경을 이해합니다.
+          </text>
+        </LineTextThree>
+
+        <LineTextFour marginTop={"2vw"}>
+          플랫폼 공간 ·도구 ·공간 이벤트 ·밸런스 설계
+        </LineTextFour>
+        <LineTextFour marginTop={"1vw"}>
+          블록체인과 NFT의 이해, 활용, 설계
+        </LineTextFour>
+        <LineTextFour marginTop={"1vw"}>
+          메타버스 서비스의 운영 기획과 플랫폼 설계
+        </LineTextFour>
+        <LineTextFour marginTop={"1vw"}>
+          메타버스 서비스 개선안 도출
+        </LineTextFour>
+      </div>
+    );
+  } else if (sectionState === 5) {
     return (
       <div
         style={{
@@ -165,7 +217,7 @@ const SectionPage = (sectionState) => {
         </LineTextFour>
       </div>
     );
-  } else if (sectionState === 4) {
+  } else if (sectionState === 6) {
     return (
       <div
         style={{
@@ -180,7 +232,6 @@ const SectionPage = (sectionState) => {
           </text>
         </LineTextThree>
         <LineTextThree>
-          {" "}
           <text style={{ color: "#0d7377" }}>통해 취업을 준비합니다.</text>
         </LineTextThree>
 
@@ -261,7 +312,7 @@ const ContentsThree = () => {
           <div
             style={{
               width: "30%",
-              height: "25vw",
+              height: "35vw",
               display: "flex",
               flexDirection: "column",
               justifyContent: "flex-start",
@@ -343,6 +394,44 @@ const ContentsThree = () => {
                 backgroundColor={"#aecbcc"}
               >
                 Section 4
+              </SectionBox>
+            )}
+            {sectionState === 5 ? (
+              <SectionBox
+                onClick={() => {
+                  setSectionState(5);
+                }}
+                backgroundColor={"#0d7377"}
+              >
+                Section 5
+              </SectionBox>
+            ) : (
+              <SectionBox
+                onClick={() => {
+                  setSectionState(5);
+                }}
+                backgroundColor={"#aecbcc"}
+              >
+                Section 5
+              </SectionBox>
+            )}
+            {sectionState === 6 ? (
+              <SectionBox
+                onClick={() => {
+                  setSectionState(6);
+                }}
+                backgroundColor={"#0d7377"}
+              >
+                Section 6
+              </SectionBox>
+            ) : (
+              <SectionBox
+                onClick={() => {
+                  setSectionState(6);
+                }}
+                backgroundColor={"#aecbcc"}
+              >
+                Section 6
               </SectionBox>
             )}
           </div>

@@ -77,7 +77,7 @@ const MobileVideo = () => {
       </LineSizeFour>
       <LineSizeFour>
         <text style={{ color: "#353535", marginLeft: "0.5vw" }}>
-          관계부처 합동 '메타버스 신사업 선도전략'
+          관계부처 합동 '메타버스 신산업 선도전략'
         </text>
       </LineSizeFour>
       <LineSizeThree marginTop={"2vw"}>

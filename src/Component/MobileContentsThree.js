@@ -4,7 +4,7 @@ import "../styles/css/App.css";
 
 const ContentsThreeContainer = styled.div`
   width: 100%;
-  height: 90vw;
+  height: 100vw;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -46,7 +46,7 @@ const LineTextFour = styled.div`
 
 const LineTextFive = styled.div`
   font-family: "Pretendard-Bold";
-  font-size: 2.5vw;
+  font-size: 3.5vw;
   ${({ marginTop }) => {
     return marginTop ? `margin-top: ${marginTop}` : null;
   }}
@@ -88,12 +88,10 @@ const SectionPage = (sectionState) => {
         <LineTextFive marginTop={"2vw"}>메타버스 바로 알기</LineTextFive>
         <LineTextThree>
           <text style={{ color: "#0d7377" }}>
-            '로블록스'를 기반으로 한 메타버스 플랫폼을
+            메타버스 플랫폼을 배우고 이해합니다.
           </text>
         </LineTextThree>
-        <LineTextThree>
-          <text style={{ color: "#0d7377" }}>배우고 이해합니다. </text>
-        </LineTextThree>
+
         <LineTextFour marginTop={"2vw"}>메타버스 개념과 시장전망</LineTextFour>
         <LineTextFour marginTop={"1vw"}>
           메타버스에서 발생할 수 있는 가상경제 모델에 대해 학습
@@ -118,32 +116,85 @@ const SectionPage = (sectionState) => {
           backgroundColor: "#f4f4f4",
         }}
       >
-        <LineTextFive marginTop={"2vw"}>메타버스 프로그래밍</LineTextFive>
+        <LineTextFive marginTop={"2vw"}>메타버스 컨텐츠의 이해</LineTextFive>
         <LineTextThree>
-          <text style={{ color: "#0d7377" }}>'메타버스 월드' 제작을 위한 </text>
+          <text style={{ color: "#0d7377" }}>
+            메타버스 컨텐츠와 스토리텔링을 기획합니다.{" "}
+          </text>
         </LineTextThree>
-        <LineTextThree>
-          <text style={{ color: "#0d7377" }}>프로그래밍을 학습합니다.</text>
-        </LineTextThree>
+
         <LineTextFour marginTop={"2vw"}>
-          메타버스 구현에 활용되는 다양한 플랫폼 환경에 대해 학습
+          컨셉 기획서와 시나리오 작성
         </LineTextFour>
-        <LineTextFour marginTop={"1vw"}>메타버스 플랫폼 설계</LineTextFour>
+        <LineTextFour marginTop={"1vw"}>세계관 캐릭터 설정</LineTextFour>
+        <LineTextFour marginTop={"1vw"}>마케팅 기초 이론과 실무</LineTextFour>
         <LineTextFour marginTop={"1vw"}>
-          메타버스 백엔드 프로그래밍
-        </LineTextFour>
-        <LineTextFour marginTop={"1vw"}>
-          블록체인 및 NFT의 개념과 활용 사례에 대해 학습
+          마케팅 제안과 프레젠테이션
         </LineTextFour>
         <LineTextFour marginTop={"1vw"}>
-          플레이어 아바타 및 이벤트 프로그래밍
-        </LineTextFour>
-        <LineTextFour marginTop={"1vw"}>
-          Unity3D 엔진 심화 그래픽과 서버
+          개발 프로젝트의 관리 요소 분석
         </LineTextFour>
       </div>
     );
   } else if (sectionState === 3) {
+    return (
+      <div
+        style={{
+          width: "100%",
+          height: "100%",
+          backgroundColor: "#f4f4f4",
+        }}
+      >
+        <LineTextFive marginTop={"2vw"}>
+          메타버스 시스템과 UI/UX 기획
+        </LineTextFive>
+        <LineTextThree>
+          <text style={{ color: "#0d7377" }}>
+            로블록스 스튜디오의 스크립트 활용과 공간을 구축합니다.
+          </text>
+        </LineTextThree>
+
+        <LineTextFour marginTop={"2vw"}>디바이스 환경의 이해</LineTextFour>
+        <LineTextFour marginTop={"1vw"}>
+          컨텐츠와 플랫폼의 시스템 설계
+        </LineTextFour>
+        <LineTextFour marginTop={"1vw"}>컨텐츠의 UI/UX 분석</LineTextFour>
+        <LineTextFour marginTop={"1vw"}>
+          컨텐츠와 플랫폼의 UI 요소 설계
+        </LineTextFour>
+      </div>
+    );
+  } else if (sectionState === 4) {
+    return (
+      <div
+        style={{
+          width: "100%",
+          height: "100%",
+          backgroundColor: "#f4f4f4",
+        }}
+      >
+        <LineTextFive marginTop={"2vw"}>
+          Unity 3D 엔진과 공간 ·서비스의 기획/운영
+        </LineTextFive>
+        <LineTextThree>
+          <text style={{ color: "#0d7377" }}>
+            Unity 3D 개발 환경을 이해합니다.
+          </text>
+        </LineTextThree>
+
+        <LineTextSix marginTop={"2vw"}>
+          플랫폼 공간 ·도구 ·공간 이벤트 ·밸런스 설계
+        </LineTextSix>
+        <LineTextSix marginTop={"1vw"}>
+          블록체인과 NFT의 이해, 활용, 설계
+        </LineTextSix>
+        <LineTextSix marginTop={"1vw"}>
+          메타버스 서비스의 운영 기획과 플랫폼 설계
+        </LineTextSix>
+        <LineTextSix marginTop={"1vw"}>메타버스 서비스 개선안 도출</LineTextSix>
+      </div>
+    );
+  } else if (sectionState === 5) {
     return (
       <div
         style={{
@@ -176,7 +227,7 @@ const SectionPage = (sectionState) => {
         </LineTextFour>
       </div>
     );
-  } else if (sectionState === 4) {
+  } else if (sectionState === 6) {
     return (
       <div
         style={{
@@ -260,7 +311,7 @@ const MobileContentsThree = () => {
         <div
           style={{
             width: "100%",
-            height: "60vw",
+            height: "70vw",
             display: "flex",
             flexDirection: "column",
             justifyContent: "flex-start",
@@ -270,90 +321,151 @@ const MobileContentsThree = () => {
           <div
             style={{
               width: "100%",
-              height: "10vw",
+              height: "15vw",
               display: "flex",
-              flexDirection: "row",
+              flexDirection: "column",
               justifyContent: "space-around",
               alignItems: "center",
             }}
           >
-            {sectionState === 1 ? (
-              <SectionBox
-                onClick={() => {
-                  setSectionState(1);
-                }}
-                backgroundColor={"#0d7377"}
-              >
-                Section 1
-              </SectionBox>
-            ) : (
-              <SectionBox
-                onClick={() => {
-                  setSectionState(1);
-                }}
-                backgroundColor={"#aecbcc"}
-              >
-                Section 1
-              </SectionBox>
-            )}
-            {sectionState === 2 ? (
-              <SectionBox
-                onClick={() => {
-                  setSectionState(2);
-                }}
-                backgroundColor={"#0d7377"}
-              >
-                Section 2
-              </SectionBox>
-            ) : (
-              <SectionBox
-                onClick={() => {
-                  setSectionState(2);
-                }}
-                backgroundColor={"#aecbcc"}
-              >
-                Section 2
-              </SectionBox>
-            )}
-
-            {sectionState === 3 ? (
-              <SectionBox
-                onClick={() => {
-                  setSectionState(3);
-                }}
-                backgroundColor={"#0d7377"}
-              >
-                Section 3
-              </SectionBox>
-            ) : (
-              <SectionBox
-                onClick={() => {
-                  setSectionState(3);
-                }}
-                backgroundColor={"#aecbcc"}
-              >
-                Section 3
-              </SectionBox>
-            )}
-            {sectionState === 4 ? (
-              <SectionBox
-                onClick={() => {
-                  setSectionState(4);
-                }}
-                backgroundColor={"#0d7377"}
-              >
-                Section 4
-              </SectionBox>
-            ) : (
-              <SectionBox
-                onClick={() => {
-                  setSectionState(4);
-                }}
-                backgroundColor={"#aecbcc"}
-              >
-                Section 4
-              </SectionBox>
-            )}
+            <div
+              style={{
+                width: "100%",
+                height: "7vw",
+                display: "flex",
+                flexDirection: "row",
+                justifyContent: "space-around",
+                alignItems: "center",
+              }}
+            >
+              {sectionState === 1 ? (
+                <SectionBox
+                  onClick={() => {
+                    setSectionState(1);
+                  }}
+                  backgroundColor={"#0d7377"}
+                >
+                  Section 1
+                </SectionBox>
+              ) : (
+                <SectionBox
+                  onClick={() => {
+                    setSectionState(1);
+                  }}
+                  backgroundColor={"#aecbcc"}
+                >
+                  Section 1
+                </SectionBox>
+              )}
+              {sectionState === 2 ? (
+                <SectionBox
+                  onClick={() => {
+                    setSectionState(2);
+                  }}
+                  backgroundColor={"#0d7377"}
+                >
+                  Section 2
+                </SectionBox>
+              ) : (
+                <SectionBox
+                  onClick={() => {
+                    setSectionState(2);
+                  }}
+                  backgroundColor={"#aecbcc"}
+                >
+                  Section 2
+                </SectionBox>
+              )}
+              {sectionState === 3 ? (
+                <SectionBox
+                  onClick={() => {
+                    setSectionState(3);
+                  }}
+                  backgroundColor={"#0d7377"}
+                >
+                  Section 3
+                </SectionBox>
+              ) : (
+                <SectionBox
+                  onClick={() => {
+                    setSectionState(3);
+                  }}
+                  backgroundColor={"#aecbcc"}
+                >
+                  Section 3
+                </SectionBox>
+              )}
+              {sectionState === 4 ? (
+                <SectionBox
+                  onClick={() => {
+                    setSectionState(4);
+                  }}
+                  backgroundColor={"#0d7377"}
+                >
+                  Section 4
+                </SectionBox>
+              ) : (
+                <SectionBox
+                  onClick={() => {
+                    setSectionState(4);
+                  }}
+                  backgroundColor={"#aecbcc"}
+                >
+                  Section 4
+                </SectionBox>
+              )}
+            </div>
+            <div
+              style={{
+                width: "100%",
+                height: "7vw",
+                display: "flex",
+                flexDirection: "row",
+                justifyContent: "center",
+                alignItems: "center",
+              }}
+            >
+              {sectionState === 5 ? (
+                <SectionBox
+                  onClick={() => {
+                    setSectionState(5);
+                  }}
+                  backgroundColor={"#0d7377"}
+                >
+                  Section 5
+                </SectionBox>
+              ) : (
+                <SectionBox
+                  onClick={() => {
+                    setSectionState(5);
+                  }}
+                  backgroundColor={"#aecbcc"}
+                >
+                  Section 5
+                </SectionBox>
+              )}
+              {sectionState === 6 ? (
+                <SectionBox
+                  onClick={() => {
+                    setSectionState(6);
+                  }}
+                  backgroundColor={"#0d7377"}
+                  style={{ marginLeft: "4vw" }}
+                >
+                  Section 6
+                </SectionBox>
+              ) : (
+                <SectionBox
+                  onClick={() => {
+                    setSectionState(6);
+                  }}
+                  backgroundColor={"#aecbcc"}
+                  style={{ marginLeft: "4vw" }}
+                >
+                  Section 6
+                </SectionBox>
+              )}
+            </div>
           </div>
           <div
             style={{

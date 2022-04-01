@@ -78,7 +78,7 @@ const Video = () => {
       </LineSizeFour>
       <LineSizeFour>
         <text style={{ color: "#353535" }}>
-          관계부처 합동 '메타버스 신사업 선도전략'
+          관계부처 합동 '메타버스 신산업 선도전략'
         </text>
       </LineSizeFour>
       <LineSizeThree>

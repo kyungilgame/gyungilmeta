@@ -100,14 +100,14 @@ const MobileContentsOne = () => {
   return (
     <>
       <ContentsOneContainer>
-        <FirstLine>국내 최초 로볼록스 기반</FirstLine>
+        <FirstLine>게임/컨텐츠/뉴미디어/NFT를 선점하라!</FirstLine>
         <SecondLine>'메타버스 월드'</SecondLine>
-        <SecondLine>게임 개발자 부트캠프</SecondLine>
+        <SecondLine>게임 기획자 부트캠프</SecondLine>
         <ContentsBox>
-          <FirstLineInnerBox>GDB 부트캠프 36기</FirstLineInnerBox>
+          <FirstLineInnerBox>메타버스 게임기획 부트캠프 1기</FirstLineInnerBox>
           <InnerContentsBox
             title={"기간"}
-            duration={"2022.04.08 ~ 2022.12.13"}
+            duration={"2022.04.18 ~ 2022.12.27"}
           ></InnerContentsBox>
           <InnerContentsBox
             title={"시간"}
@@ -115,11 +115,11 @@ const MobileContentsOne = () => {
           ></InnerContentsBox>
           <InnerContentsBox
             title={"모집마감"}
-            duration={"2022.04.06"}
+            duration={"2022.04.15"}
           ></InnerContentsBox>
           <InnerContentsBox
             title={"합격자 발표일"}
-            duration={"2022.04.05"}
+            duration={"2022.04.15"}
           ></InnerContentsBox>
           <LastLineInnerBox
             as={"a"}

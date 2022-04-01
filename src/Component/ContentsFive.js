@@ -88,7 +88,7 @@ const ContentsFive = () => {
       <LineSizeTwo marginTop={"7vw"}>
         여러분 또래의 취업 성공담을 확인하세요
       </LineSizeTwo>
-      <LineSizeOne>GDB 챌린저 수강후기</LineSizeOne>
+      <LineSizeOne>KGA 부트캠프 챌린저 수강후기</LineSizeOne>
       <div
         style={{
           width: "80vw",
@@ -102,7 +102,7 @@ const ContentsFive = () => {
       >
         <WhiteBoxWrapper>
           <ImageWrapper image={StudentFaceImageFive}></ImageWrapper>
-          <LineSizeThree>GDB 김도형 챌린저</LineSizeThree>
+          <LineSizeThree>KGA 김도형 챌린저</LineSizeThree>
           <LineSizeFour>VR 콘텐츠 개발사 입사</LineSizeFour>
           <div
             style={{
@@ -119,7 +119,7 @@ const ContentsFive = () => {
         </WhiteBoxWrapper>
         <WhiteBoxWrapper>
           <ImageWrapper image={StudentFaceImageOne}></ImageWrapper>
-          <LineSizeThree>GDB 김상균 챌린저</LineSizeThree>
+          <LineSizeThree>KGA 김상균 챌린저</LineSizeThree>
           <LineSizeFour>캐쥬얼보드 메타버스 개발사 입사</LineSizeFour>
           <div
             style={{
@@ -138,7 +138,7 @@ const ContentsFive = () => {
         </WhiteBoxWrapper>
         <WhiteBoxWrapper>
           <ImageWrapper image={StudentFaceImageTwo}></ImageWrapper>
-          <LineSizeThree>GDB 김희찬 챌린저</LineSizeThree>
+          <LineSizeThree>KGA 김희찬 챌린저</LineSizeThree>
           <LineSizeFour>메타버스 플랫폼 개발사 입사</LineSizeFour>
           <div
             style={{
@@ -168,7 +168,7 @@ const ContentsFive = () => {
       >
         <WhiteBoxWrapper>
           <ImageWrapper image={StudentFaceImageThree}></ImageWrapper>
-          <LineSizeThree>GDB 현하늘 챌린저</LineSizeThree>
+          <LineSizeThree>KGA 현하늘 챌린저</LineSizeThree>
           <LineSizeFour>스크린체험 콘텐츠개발사 입사</LineSizeFour>
           <div
             style={{
@@ -185,7 +185,7 @@ const ContentsFive = () => {
         </WhiteBoxWrapper>
         <WhiteBoxWrapper>
           <ImageWrapper image={StudentFaceImageSix}></ImageWrapper>
-          <LineSizeThree>GDB 김지수 챌린저</LineSizeThree>
+          <LineSizeThree>KGA 김지수 챌린저</LineSizeThree>
           <LineSizeFour>바이오 VR게임 개발사 입사</LineSizeFour>
           <div
             style={{
@@ -202,7 +202,7 @@ const ContentsFive = () => {
         </WhiteBoxWrapper>
         <WhiteBoxWrapper>
           <ImageWrapper image={StudentFaceImageFour}></ImageWrapper>
-          <LineSizeThree>GDB 홍사민 챌린저</LineSizeThree>
+          <LineSizeThree>KGA 홍사민 챌린저</LineSizeThree>
           <LineSizeFour>실감형 콘텐츠개발사 입사</LineSizeFour>
           <div
             style={{
