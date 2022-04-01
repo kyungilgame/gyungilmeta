@@ -101,7 +101,7 @@ const Video = () => {
               marginTop: "0.5vw",
             }}
           >
-            <text style={{ color: "#00ffd6" }}>K-DIGITAL TRANING</text>
+            <text style={{ color: "#00ffd6" }}>K-DIGITAL TRAINING</text>
           </div>
         </div>
       </LineSizeThree>
