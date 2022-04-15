@@ -129,9 +129,11 @@ const BottomCTABar = () => {
           }}
         >
           <SecondLine>
-            <text style={{ color: "#00ffd6" }}>수강신청 마감까지</text>
+            <text style={{ color: "#00ffd6" }}>
+              1분만에 쉽고 빠르게 신청하세요
+            </text>
           </SecondLine>
-          <SecondLine>
+          {/* <SecondLine>
             <text style={{ color: "white", marginLeft: "0.5vw" }}>
               {`${day}`}일
             </text>
@@ -141,7 +143,7 @@ const BottomCTABar = () => {
             <text style={{ color: "white", marginLeft: "0.5vw" }}>
               남았어요!
             </text>
-          </SecondLine>
+          </SecondLine> */}
         </div>
       </div>
       <div

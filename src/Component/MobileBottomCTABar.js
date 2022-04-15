@@ -134,9 +134,11 @@ const MobileBottomCTABar = () => {
           }}
         >
           <SecondLine>
-            <text style={{ color: "#00ffd6" }}>수강신청 마감까지</text>
+            <text style={{ color: "#00ffd6" }}>
+              1분만에 쉽고 빠르게 신청하세요
+            </text>
           </SecondLine>
-          <SecondLine>
+          {/* <SecondLine>
             <text style={{ color: "white", marginLeft: "0.5vw" }}>
               {`${day}`}일
             </text>
@@ -146,7 +148,7 @@ const MobileBottomCTABar = () => {
             <text style={{ color: "white", marginLeft: "0.5vw" }}>
               남았어요!
             </text>
-          </SecondLine>
+          </SecondLine> */}
         </div>
         <ApplyButton as={"a"} href={"https://forms.gle/bNkmRwr2wMwfHBZp7"}>
           <ThirdLine>수강신청하기{">>"}</ThirdLine>
