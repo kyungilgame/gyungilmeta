@@ -183,7 +183,7 @@ const ContentsOne = () => {
           ></InnerContentsBox>
           <LastLineInnerBox
             as={"a"}
-            href={"https://forms.gle/bNkmRwr2wMwfHBZp7"}
+            href={"https://forms.gle/KnRaXdzMxBmT5ufr5"}
           >
             <text
               style={{

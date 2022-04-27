@@ -150,7 +150,7 @@ const MobileBottomCTABar = () => {
             </text>
           </SecondLine> */}
         </div>
-        <ApplyButton as={"a"} href={"https://forms.gle/bNkmRwr2wMwfHBZp7"}>
+        <ApplyButton as={"a"} href={"https://forms.gle/KnRaXdzMxBmT5ufr5"}>
           <ThirdLine>수강신청하기{">>"}</ThirdLine>
         </ApplyButton>
       </div>
