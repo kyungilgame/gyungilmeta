@@ -104,10 +104,10 @@ const MobileContentsOne = () => {
         <SecondLine>'메타버스 월드'</SecondLine>
         <SecondLine>게임 기획자 부트캠프</SecondLine>
         <ContentsBox>
-          <FirstLineInnerBox>메타버스 게임기획 부트캠프 1기</FirstLineInnerBox>
+          <FirstLineInnerBox>메타버스 게임기획 부트캠프 2기</FirstLineInnerBox>
           <InnerContentsBox
             title={"기간"}
-            duration={"2022.04.18 ~ 2022.12.27"}
+            duration={"2022.06.22 ~ 2023.03.02"}
           ></InnerContentsBox>
           <InnerContentsBox
             title={"시간"}
@@ -115,11 +115,11 @@ const MobileContentsOne = () => {
           ></InnerContentsBox>
           <InnerContentsBox
             title={"모집마감"}
-            duration={"2022.04.15"}
+            duration={"2022.06.17"}
           ></InnerContentsBox>
           <InnerContentsBox
             title={"합격자 발표일"}
-            duration={"2022.04.15"}
+            duration={"2022.06.20"}
           ></InnerContentsBox>
           <LastLineInnerBox
             as={"a"}
