@@ -49,6 +49,7 @@ const Header = () => {
 
       <HeaderRight as={"a"} href={"http://www.kiweb.or.kr/?view=pc"}>
         홈페이지 이동 {">"}
+        {""}
       </HeaderRight>
     </HeaderContainer>
   );
