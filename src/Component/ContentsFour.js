@@ -151,7 +151,11 @@ const ContentsFour = () => {
           여러분을 위한 전화 안내 서포터를 통해 쉽고 빠르게 신청하세요!
         </text>
       </TextStyleThree>
-      <SupplyBox as={"a"} href={"https://forms.gle/bNkmRwr2wMwfHBZp7"}>
+      <SupplyBox
+        as={"a"}
+        // href={"https://forms.gle/bNkmRwr2wMwfHBZp7"} // 구글설문지에서 변경
+        href={"https://www.kigame.or.kr/#/apply"}
+      >
         <text
           style={{
             fontSize: "1.7vw",

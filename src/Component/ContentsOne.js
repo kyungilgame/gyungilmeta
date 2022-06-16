@@ -167,7 +167,7 @@ const ContentsOne = () => {
           <FirstLineInnerBox>메타버스 게임기획 부트캠프 2기</FirstLineInnerBox>
           <InnerContentsBox
             title={"기간"}
-            duration={"2022.06.22 ~ 2023.03.02"}
+            duration={"2022.06.29. ~ 2023.03.09."}
           ></InnerContentsBox>
           <InnerContentsBox
             title={"시간"}
@@ -175,15 +175,16 @@ const ContentsOne = () => {
           ></InnerContentsBox>
           <InnerContentsBox
             title={"모집마감"}
-            duration={"2022.06.17"}
+            duration={"2022.06.24."}
           ></InnerContentsBox>
           <InnerContentsBox
             title={"합격자 발표일"}
-            duration={"2022.06.20"}
+            duration={"2022.06.27."}
           ></InnerContentsBox>
           <LastLineInnerBox
             as={"a"}
-            href={"https://forms.gle/KnRaXdzMxBmT5ufr5"}
+            // href={"https://forms.gle/KnRaXdzMxBmT5ufr5"} 구글설문지에서 변경
+            href={"https://www.kigame.or.kr/#/apply"}
           >
             <text
               style={{

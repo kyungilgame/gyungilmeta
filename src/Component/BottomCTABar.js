@@ -159,7 +159,11 @@ const BottomCTABar = () => {
           alignItems: "center",
         }}
       >
-        <ApplyButton as={"a"} href={"https://forms.gle/KnRaXdzMxBmT5ufr5"}>
+        <ApplyButton
+          as={"a"}
+          // href={"https://forms.gle/KnRaXdzMxBmT5ufr5"} // 구글설문지에서 변경
+          href={"https://www.kigame.or.kr/#/apply"}
+        >
           <ThirdLine style={{ marginLeft: "1vw", marginTop: "0.2vw" }}>
             수강신청하기{">>"}
           </ThirdLine>
